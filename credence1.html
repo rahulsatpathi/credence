@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+</head>
+<body>
+<div class="container">
+<div class="py-5">
+<h1 class="text-center display-4">MY GALLERY</h1>
+<hr class="text-center w-25 border-dark">
+</div>
+<div class="row no-gutters gallerys">
+<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+<a href="img/event/cac5.jpg"target="_blank">
+<img src="img/event/cac5.jpg"class="img-fluid"style="padding:5px 5px;">
+</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+<a href="img/event/cac1.jpg"target="_blank">
+<img src="img/event/cac1.jpg"class="img-fluid"style="padding:5px 5px;">
+</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+<a href="img/event/cac2.jpg"target="_blank">
+<img src="img/event/cac2.jpg"class="img-fluid"style="padding:5px 5px;">
+</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+<a href="img/event/cac3.jpg"target="_blank">
+<img src="img/event/cac3.jpg"class="img-fluid"style="padding:5px 5px;">
+</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+<a href="img/event/cac6.jpg"target="_blank">
+<img src="img/event/cac6.jpg"class="img-fluid"style="padding:5px 5px;">
+</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+<a href="img/event/cac6.jpg"target="_blank">
+<img src="img/event/cac6.jpg"class="img-fluid"style="padding:5px 5px;">
+</a>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function(){
+  $('.gallerys').magnificPopup({
+  type:'image',
+  delegate: 'a',
+  gallery:{
+  enabled:true
+  }
+  });
+  });
+  </script>
+  </body>
+</html>
